@@ -1,0 +1,223 @@
+        <bookstore>
+            <book category="cooking">
+            <title lang="en">Everyday Italian</title>
+                <author>Giada De Laurentiis</author>
+                <year>2005</year>
+                <price>30.00</price> </book>
+            <book category="children">
+                <title lang="en">Harry Potter</title>
+                <author>J K. Rowling</author>
+                <year>2005</year>
+                <price>29.99</price> </book>
+            <book category="web">
+                <title lang="en">XQuery Kick Start</title>
+                <author>James McGovern</author>
+                <author>Per Bothner</author>
+                <author>Kurt Cagle</author>
+                <author>James Linn</author>
+                <author>Vaidyanathan Nagarajan</author>
+                <year>2003</year>
+                <price>49.99</price> </book>
+            <book category="web" cover="paperback">
+                <title lang="en">Learning XML</title>
+                <author>Erik T. Ray</author>
+                <year>2003</year>
+                <price>39.95</price> </book>
+         </bookstore>
+
+         <script src="https://cdn.jsdelivr.net/npm/three-orbitcontrols@2/OrbitControls.js"></script>
+
+         
+                <script id="myxml_part" type="text/xmldata">
+                
+                    <raiz>
+                        <nome>CHESF</nome>
+                        <regional>
+                            <nome>Leste</nome>
+                            <subestacao>
+                                <nome>ACD</nome>
+                                <ponto>
+                                    <nome>ACD.EL03C2</nome>
+                                    <anormalidade>false</anormalidade>
+                                    <sistema>Qualimetria</sistema>
+                                </ponto>
+                                <ponto>
+                                    <nome>ACD.EL03C4</nome>
+                                    <anormalidade>false</anormalidade>
+                                    <sistema>Qualimetria</sistema>
+                                </ponto>
+                                <ponto>
+                                    <nome>ACD.EL04S1</nome>
+                                    <anormalidade>false</anormalidade>
+                                    <sistema>Qualimetria</sistema>
+                                </ponto>
+                                <ponto>
+                                    <nome>ACD.EL04S1</nome>
+                                    <anormalidade>false</anormalidade>
+                                    <sistema>Qualimetria</sistema>
+                                </ponto>
+                                <ponto>
+                                    <nome>ACD.TR04T6</nome>
+                                    <anormalidade>false</anormalidade>
+                                    <sistema>Qualimetria</sistema>
+                                </ponto>                                
+                            </subestacao>
+                    <subestacao>
+                    <nome>BGI</nome>
+                    <ponto>
+                        <nome>BGI.EL04C1</nome>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>PEBGI-04C1-01P</nome>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Faturamento</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>PEBGI-04C1-01R</nome>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Faturamento</sistema>
+                    </ponto>              
+                </subestacao>
+                <subestacao>
+                    <nome>RLD</nome>
+                    <ponto nome="RLD.EL04S2">
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                </subestacao>
+            </regional>
+    
+            <regional>
+                <nome>Oeste</nome>
+                <subestacao nome="TSA">
+                     <ponto>
+                        <nome>TSA.EL02J4</nome>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>TSA.EL02J6</nome>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                     <ponto>
+                        <nome>TSA.EL02J9</nome>                 
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>TSA.EL04F1</nome>     
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>TSA.EL04L3</nome>                  
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>TSA.TR04T4_69kV</nome>   
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>PITSA-04F1-01P</nome>                  
+                        <anormalidade>false</anormalidade>
+                        <sistema>Faturamento</sistema>
+                    </ponto>
+                        <nome>PITSA-04F1-01R</nome>                  
+                        <anormalidade>false</anormalidade>
+                        <sistema>Faturamento</sistema>
+                    </ponto>
+    
+    
+                </subestacao>
+    
+    
+                <subestacao nome="TSD">
+                    <ponto>
+                        <nome>TSD.EL04L4</nome>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>TSD.EL05C8</nome>                
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>TSD.EL05C9</nome>                
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto> 
+                    <ponto>
+                        <nome>TSD.TR04T3_CS</ponto>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>TSD.TR05T2_230kV</ponto>                
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>                                              
+                </subestacao>
+    
+            </regional>
+    
+            <regional>
+                <nome>Sul</nome>
+                <subestacao>
+                    <nome>JDM</nome>
+                    <ponto>
+                        <nome>SEJDM-04F1-01P</nome>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Faturamento</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>SEJDM-04F1-01R</nome>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Faturamento</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>SEJDM-04F3-17P</nome>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Faturamento</sistema>
+                    </ponto>                
+                    <ponto>
+                        <nome>SEJDM-04F3-17R</nome>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Faturamento</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>JDM.EL04F1_F</nome>                
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>JDM.EL04F2</nome>                
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>                            
+                    <ponto>
+                        <nome>JDM.EL04F3</nome>                
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>JDM.EL05V5</nome>   
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>
+                    <ponto>
+                        <nome>JDM.TR04T2_69kV</ponto>
+                        <anormalidade>false</anormalidade>
+                        <sistema>Qualimetria</sistema>
+                    </ponto>                                     
+                </subestacao>
+            </regional>
+    
+    </raiz>
+
+    </script>
